@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Atividade 4</title>
+</head>
+
+<body>
+    <header>
+        <p>Apresentação inicial</p>
+      
+    </header>
+
+    <main>
+        <section>
+            <div>foto perfil</div>
+            <div>Sobre mim</div>
+        </section>
+
+        <section>
+            <p>favoritos</p>
+        </section>
+        
+        <section>
+        <nav>
+            <p>Principais Projetos</p>
+            
+            <ul>
+            <li><a href= "#">Proj 1</a></li>
+            <li><a href= "#">Proj 2</a></li>
+            <li><a href= "#">Proj 3</a></li>
+            <li><a href= "#">Proj 4</a></li>
+           <li><a href= "#">Proj 5</a></li>
+            <li><a href= "#">Proj 6</a></li>
+            </ul>
+        </nav>
+        </section>
+    
+    </main>
+
+    <footer>
+     
+        <article>Mais informações</
+        article>
+    </footer>
+</body>
+
+</html>
