@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculaliment</title>
+
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <img src="./assets/calculaliment_logo.png" alt="Logo Calculaliment" />
+    </header>
+
+    <main class="container">
+      <section id="calculadora">
+        <form>
+          <h1 class="titulo">Calcule a medida que precisa</h1>
+
+          <br />
+          <label class="opc" for="ingrediente">Selecione o ingrdiente</label>
+          <select class="tipo" name="ingrdiente">
+            <option value="açucar">Açúcar</option>
+            <option value="amendoas">Amêndoas, castanhas ou nozes</option>
+            <option value="Amido">Amido de milho</option>
+            <option value="arroz">Arroz</option>
+            <option value="aveia">Aveia</option>
+            <option value="bicarbonato">
+              Bicarbonato de sódio, fermento químico ou biológico
+            </option>
+            <option value="cafe">Café em pó</option>
+            <option value="chocolate">Chocolate em pó</option>
+            <option value="coco">Coco ralado fresco</option>
+            <option value="farinha">Farinha de trigo</option>
+            <option value="fuba">Fubá</option>
+            <option value="liquidos">
+              Líquidos: água, leite, iogurte, óleos e bebidas
+            </option>
+            <option value="manteiga">
+              Manteiga, margarina, banha ou gorgura vegetal
+            </option>
+            <option value="polvilho">Polvilho doce ou azedo</option>
+            <option value="sal">Sal</option>
+            <option value="queijo">Queijo ralado</option>
+          </select>
+
+          <br />
+          <label class="opc" for="medida1">Medida da receita</label><br />
+          <select class="tipo" name="medida1">
+            <option value="ccha">Colher de sobremesa</option>
+            <option value="csobre">Colher de sobremesa</option>
+            <option value="csopa">Colher de sopa</option>
+            <option value="copo">Copo americano</option>
+            <option value="xicara">Xícara de chá</option>
+            <option value="grama">Grama (g)</option>
+            <option value="quilo">Quilograma (Kg)</option>
+          </select>
+
+          <br /><label class="opc" for="medida2">Medida que deseja</label><br />
+          <select class="tipo" name="medida2">
+            <option value="ccha">Colher de sobremesa</option>
+            <option value="csobre">Colher de sobremesa</option>
+            <option value="csopa">Colher de sopa</option>
+            <option value="copo">Copo americano</option>
+            <option value="xicara">Xícara de chá</option>
+            <option value="grama">Grama (g)</option>
+            <option value="quilo">Quilograma (Kg)</option>
+          </select>
+
+          <br /><label class="campo" for="turma">Quantidade da receita:</label
+          ><br />
+          <input type="text" id="quant1" name="quant1" /><br />
+
+          <br /><label class="campo" for="turma"
+            >Quantidade na medida desejada:</label
+          ><br />
+          <input class="resu" type="text" id="quant2" name="quant2" /><br />
+        </form>
+      </section>
+    </main>
+
+    <footer><p>@2021 Calculaliment</p></footer>
+
+    <script src="./scripts.js"></script>
+  </body>
+</html>
