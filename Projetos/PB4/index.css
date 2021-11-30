@@ -236,100 +236,64 @@ h2 {
   text-align: center;
   margin: 10%;
   margin-bottom: 0%;
-  padding-top: 6rem;
-  padding-bottom: 2rem;
-}
-.text-dif h2 {
-  color: var(--title-color);
-  font-size: var(--title-font-size);
+  margin-top: 3rem;
 }
 
 .text-dif p {
-  color: var(--text-color);
-  font-size: var(--subtitle-font-size);
-  padding-top: 2rem;
+  text-align: center;
+  font-weight: 400;
+  margin-top: 2rem;
+  margin-bottom: -2.5rem;
 }
 
-.ini-4 .diferença .shopee {
+.diferença p {
+  text-align: center;
+}
+/*== react  ==*/
+
+.ini-4 .diferença .react {
   flex: 1 1 500px;
   width: 50%;
   padding: 10%;
   padding-top: 5%;
-  padding-bottom: 0%;
 }
 
-.ini-4 .diferença .shopee .text-shopee {
+.ini-4 .diferença .react .text-react {
   align-items: center;
   justify-content: center;
   text-align: center;
   width: 100%;
 }
 
-.ini-4 .diferença .shopee .logo-shopee {
+.ini-4 .diferença .react .img-react {
   flex: 1 1 16rem;
   text-align: center;
   padding-bottom: 2rem;
 }
 
-.ini-4 .diferença .shopee .logo-shopee img {
-  width: 25%;
-  border: double 2px transparent;
-  border-radius: 50%;
-}
+/*== react native ==*/
 
-.ini-4 .diferença .mercado {
+.ini-4 .diferença .react-n {
   flex: 1 1 500px;
   width: 50%;
   padding: 10%;
   padding-top: 5%;
-  padding-bottom: 0%;
 }
 
-.ini-4 .diferença .mercado .text-mercado {
+.ini-4 .diferença .react-n .text-reactn {
   align-items: center;
   justify-content: center;
   text-align: center;
   width: 100%;
 }
 
-.ini-4 .diferença .mercado .logo-mercado {
+.ini-4 .diferença .react-n .img-reactn {
   flex: 1 1 16rem;
   text-align: center;
   padding-bottom: 2rem;
 }
 
-.ini-4 .diferença .mercado .logo-mercado img {
-  width: 25%;
-
-  border-radius: 50%;
-}
-
-.ini-4 .diferença .direto {
-  flex: 1 1 500px;
-  width: 50%;
-  padding: 10%;
-  padding-top: 5%;
-  padding-bottom: 0%;
-}
-
-.ini-4 .diferença .direto .text-direto {
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  width: 100%;
-}
-
-.ini-4 .diferença .direto .logo-wsa {
-  flex: 1 1 16rem;
-  text-align: center;
-  padding-bottom: 2rem;
-}
-
-.ini-4 .diferença .direto .logo-wsa img {
-  width: 15%;
-
-  border-radius: 50%;
-}
+/*== continuação ==*/
 
 .card {
   background: var(--base-color-second);
@@ -348,13 +312,38 @@ h2 {
 }
 
 .card p {
-  font-size: 1.3rem;
-  font-weight: 1.5rem;
-  text-transform: uppercase;
-  color: var(--base-color);
+  font-weight: 400;
+  font-size: var(--text-font-size);
+  color: white;
+  text-align: center;
 }
 .diferença .button {
   margin-bottom: 2rem;
+}
+
+.ini-4 .img-ket,
+.img-yas {
+  flex: 1 1 16rem;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+.ini-4 .img-ket img,
+.img-yas img {
+  width: 50%;
+  border-radius: 50%;
+}
+
+.footer {
+  width: 100%;
+  height: 1.5rem;
+  background-color: var(--base-color);
+  align-items: center;
+  justify-content: center;
+}
+.footer p {
+  text-align: center;
+  font-size: 1rem;
+  color: var(--clean);
 }
 /*========== RESPONSIVO ==========*/
 @media (min-width: 1200px) {
@@ -462,3 +451,4 @@ h2 {
     padding-top: 0rem;
   }
 }
+
