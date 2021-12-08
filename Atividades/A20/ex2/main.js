@@ -1,9 +1,9 @@
 const inputCep = document.querySelector('[name=cep]')
-const inputCity = document.querySelector('[name=city]')
-const inputLogr = document.querySelector('[name=logradouro]')
+const inputCity = document.querySelector('[name=cidade]')
+const inputLogr = document.querySelector('[name=rua]')
 const inputBairro = document.querySelector('[name=bairro]')
 const inputUF = document.querySelector('[name=uf]')
-const inputDdd = document.querySelector('[name=ddd]')
+const inputDdd = document.querySelector('[name=ibge]')
 
 inputCep.addEventListener('blur', event => {
   let cep = event.target.value
